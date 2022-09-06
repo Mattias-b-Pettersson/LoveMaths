@@ -16,10 +16,16 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
-
+/**
+ * The main game "loop", called when the script is fist loaded and after the users answer has been processed
+ */
 
 function runGame() {
-    
+
+    // generates two random numbers
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
+
 }
 
 function checkAnswer() {
